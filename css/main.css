@@ -1,0 +1,62 @@
+body {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border-radius: 5px;
+  background-color: rgb(244, 244, 244);
+  padding: 5px 10px;
+}
+
+.email-logIn {
+  border-radius: 5px;
+  background-color: rgb(244, 244, 244);
+  padding: 5px 10px;
+}
+.password-logIn {
+  border-radius: 5px;
+  background-color: rgb(244, 244, 244);
+  padding: 5px 10px;
+}
+
+.button-sign {
+  cursor: pointer;
+  margin-top: 15px;
+  width: 155px;
+  padding: 1.5%;
+  border-radius: 8px;
+  background-color: teal;
+  color: white;
+  border: 1px solid teal;
+  transition: all 0.2s ease-out;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.button-sign:hover {
+  background: transparent;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.button-logIn {
+  cursor: pointer;
+  margin-top: 15px;
+  width: 155px;
+  padding: 1.5%;
+  border-radius: 8px;
+  background-color: teal;
+  color: white;
+  border: 1px solid teal;
+  transition: all 0.2s ease-out;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.button-logIn:hover {
+  background: transparent;
+  color: teal;
+  border: 1px solid teal;
+}
